@@ -1,0 +1,12 @@
+# Add or remove links as needed. Each link needs: name, url
+- name: GitHub
+  url: https://github.com/GJCPP
+
+- name: ORCID
+  url: https://orcid.org/0000-0003-4288-5954
+
+# - name: Google Scholar
+#   url: https://scholar.google.com/...
+
+# - name: LinkedIn
+#   url: https://linkedin.com/in/...

@@ -1,0 +1,25 @@
+# List your publications. Add or remove entries as needed.
+# Fields: title, authors, year, venue, url (optional)
+- title: "SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery"
+  authors: "Jiacheng Gao, Moyang Xie, Yuan Zhang, Sheng Zhong"
+  year: "2025"
+  venue: "Cryptology ePrint Archive, Paper 2025/165"
+  url: https://eprint.iacr.org/2025/165
+
+- title: "UFOs: An Ultra-fast Toolkit for Multiparty Computation of Small Elements"
+  authors: "Jiacheng Gao, Moyang Xie, Yuan Zhang, Sheng Zhong"
+  year: "2025"
+  venue: "Cryptology ePrint Archive, Paper 2025/2281"
+  url: https://eprint.iacr.org/2025/2281
+
+- title: "Multiparty Shuffle: Linear Online Phase is Almost for Free"
+  authors: "Jiacheng Gao, Yuan Zhang, Sheng Zhong"
+  year: "2024"
+  venue: "Cryptology ePrint Archive, Paper 2024/1936"
+  url: https://eprint.iacr.org/2024/1936
+
+- title: "Revisiting Privacy-Preserving Min and k-th Min Protocols for Mobile Sensing"
+  authors: "Jiacheng Gao, Yuan Zhang, Sheng Zhong"
+  year: "2024"
+  venue: "IEEE Transactions on Dependable and Secure Computing, Vol. 21, No. 4, pp. 3211–3226"
+  url: https://doi.org/10.1109/TDSC.2023.3324802

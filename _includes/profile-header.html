@@ -1,0 +1,14 @@
+<header class="profile-header">
+  <img src="{{ site.author.photo | relative_url }}" alt="{{ site.author.name }}" class="profile-photo">
+  <div class="profile-info">
+    <h1>{{ site.author.name }}</h1>
+    <p class="email">
+      <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+    </p>
+    <nav class="links">
+      {% for link in site.data.links %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.name }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

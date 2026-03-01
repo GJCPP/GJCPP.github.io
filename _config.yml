@@ -1,0 +1,20 @@
+# Site settings
+title: Academic Profile
+description: Personal academic website for PhD applications
+baseurl: ""
+url: "https://GJCPP.github.io"
+
+# Author / profile (edit these)
+author:
+  name: Jiacheng Gao
+  email: jcgao@smail.nju.edu.cn
+  photo: /assets/images/jcgao.jpg
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Content collection (e.g. personal statement in separate .md files)
+collections:
+  content:
+    output: false
