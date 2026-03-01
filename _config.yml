@@ -1,6 +1,6 @@
 # Site settings
 title: Academic Profile
-description: Personal academic website for PhD applications
+description: Jiacheng Gao's personal academic website
 baseurl: ""
 url: "https://GJCPP.github.io"
 
@@ -14,7 +14,7 @@ author:
 markdown: kramdown
 permalink: pretty
 
-# Content collection (e.g. personal statement in separate .md files)
+# Content collection (e.g. about me in separate .md files)
 collections:
   content:
     output: false

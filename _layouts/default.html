@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
 </head>
 <body>
   <main class="container">
@@ -16,7 +17,7 @@
     {% assign statement = site.content | where: "slug", "statement" | first %}
     {% if statement %}
     <section class="section">
-      <h2>Personal Statement</h2>
+      <h2>About Me</h2>
       <div class="statement">
         {{ statement.content }}
       </div>

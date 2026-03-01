@@ -1,13 +1,50 @@
 <section class="section">
   <h2>Publications</h2>
-  <ol class="publications">
-    {% for pub in site.data.publications %}
-    <li>
-      <strong>{{ pub.title }}</strong>. {{ pub.authors }} ({{ pub.year }}). <em>{{ pub.venue }}</em>.
-      {% if pub.url %}
-      <a href="{{ pub.url }}" target="_blank" rel="noopener">Link</a>
-      {% endif %}
-    </li>
-    {% endfor %}
+  <ol class="publications" id="publications-list">
+    <li class="pub-loading">Loading…</li>
   </ol>
 </section>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+<script>
+(function() {
+  const url = "{{ '/content/publications.md' | relative_url }}";
+  const list = document.getElementById('publications-list');
+
+  fetch(url)
+    .then(r => r.text())
+    .then(text => {
+      const blocks = text.split(/\n-----\n/).map(s => s.trim()).filter(Boolean);
+      list.innerHTML = blocks.map((block, index) => {
+        let html = marked.parse(block);
+        const temp = document.createElement('div');
+        temp.innerHTML = html;
+        const details = temp.querySelector('details');
+        if (details) {
+          const summary = details.querySelector('summary');
+          if (summary) {
+            summary.innerHTML = marked.parse(summary.innerHTML.trim());
+            const num = document.createElement('span');
+            num.className = 'pub-num';
+            num.textContent = (index + 1) + '. ';
+            summary.insertBefore(num, summary.firstChild);
+          }
+        }
+        return '<li class="pub-item">' + temp.innerHTML + '</li>';
+      }).join('');
+      if (typeof renderMathInElement === 'function') {
+        renderMathInElement(list, {
+          delimiters: [
+            { left: '$$', right: '$$', display: true },
+            { left: '$', right: '$', display: false }
+          ],
+          throwOnError: false
+        });
+      }
+    })
+    .catch(() => {
+      list.innerHTML = '<li>Unable to load publications.</li>';
+    });
+})();
+</script>

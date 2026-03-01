@@ -88,11 +88,64 @@ body {
 
 .publications {
   margin: 0;
-  padding-left: 1.25rem;
+  padding-left: 0;
+  counter-reset: pub;
 }
 
 .publications li {
   margin-bottom: 0.75rem;
+}
+
+.publications .pub-item {
+  list-style: none;
+  counter-increment: pub;
+  display: flex;
+  align-items: baseline;
+}
+
+.publications .pub-item:not(:has(details))::before {
+  content: counter(pub) ". ";
+  flex: 0 0 1.8em;
+  min-width: 1.8em;
+}
+
+.publications .pub-item:not(:has(details)) > * {
+  flex: 1;
+  margin: 0;
+}
+
+.pub-item:not(:has(details)) p {
+  display: inline;
+}
+
+.pub-item details {
+  flex: 1;
+  min-width: 0;
+}
+
+.pub-item details summary {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+}
+
+.pub-item details summary::-webkit-details-marker,
+.pub-item details summary::marker {
+  display: none;
+}
+
+.pub-item details summary::before {
+  content: "▸ ";
+  flex: 0 0 0.5em;
+}
+
+.pub-item .pub-num {
+  flex: 0 0 1.3em;
+  min-width: 1.3em;
+}
+
+.pub-item details[open] summary::before {
+  content: "▾ ";
 }
 
 .publications a {
@@ -102,6 +155,46 @@ body {
 
 .publications a:hover {
   text-decoration: underline;
+}
+
+.pub-loading {
+  color: #666;
+  font-style: italic;
+}
+
+.pub-item details {
+  margin-top: 0;
+}
+
+.pub-item details summary {
+  cursor: pointer;
+  user-select: none;
+}
+
+.pub-item details summary p {
+  margin: 0;
+  display: inline;
+}
+
+.pub-item details > *:not(summary) {
+  margin-top: 0.5rem;
+  padding: 0.5rem 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.pub-item details p {
+  margin: 0 0 0.5rem 0;
+}
+
+.pub-item details p:last-child {
+  margin-bottom: 0;
+}
+
+.pub-item details ul,
+.pub-item details ol {
+  margin: 0 0 0.5rem 0;
+  padding-left: 1.25rem;
 }
 
 .footer {
