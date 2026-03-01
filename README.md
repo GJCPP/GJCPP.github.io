@@ -30,6 +30,7 @@ A modular Jekyll-based GitHub Pages template for academic profiles (e.g., PhD ap
 
 3. **Publications** — Edit `_content/publications.md`:
    - All content in Markdown; each publication separated by `-----` (dashes do not appear in output)
+   - Single newlines create line breaks (e.g. between title and authors)
    - Optional collapsible comment: use `<details><summary>**Title.** Authors...</summary>comment...</details>` (summary = citation; click to expand)
    - LaTeX math: use `$...$` (inline) or `$$...$$` (display)
 

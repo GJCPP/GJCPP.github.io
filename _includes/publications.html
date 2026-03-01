@@ -16,15 +16,16 @@
     .then(r => r.text())
     .then(text => {
       const blocks = text.split(/\n-----\n/).map(s => s.trim()).filter(Boolean);
+      const mdOpts = { breaks: true };
       list.innerHTML = blocks.map((block, index) => {
-        let html = marked.parse(block);
+        let html = marked.parse(block, mdOpts);
         const temp = document.createElement('div');
         temp.innerHTML = html;
         const details = temp.querySelector('details');
         if (details) {
           const summary = details.querySelector('summary');
           if (summary) {
-            summary.innerHTML = marked.parse(summary.innerHTML.trim());
+            summary.innerHTML = marked.parse(summary.innerHTML.trim(), mdOpts);
             const num = document.createElement('span');
             num.className = 'pub-num';
             num.textContent = (index + 1) + '. ';
