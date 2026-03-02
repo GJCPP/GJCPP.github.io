@@ -1,3 +1,10 @@
+**Efficient SNARK for Convolutional Neural Network Training.**
+Wenjie Qu, Jiacheng Gao, Jiaheng Zhang (2025). 
+*Under review.*
+[Code](https://github.com/GJCPP/Semper)
+
+-----
+
 [**SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery.**](https://eprint.iacr.org/2025/165) 
 **Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
 *Cryptology ePrint Archive, Paper 2025/165.* 
@@ -12,7 +19,7 @@
 
 -----
 
-[**Multiparty Shuffle: Linear Online Phase is Almost for Free.**](https://eprint.iacr.org/2024/1936)
+[**Free Linear Online Phase for Secure Multiparty Shuffle.**](https://eprint.iacr.org/2024/1936)
 **Jiacheng Gao**, Yuan Zhang, Sheng Zhong (2024).
 *Cryptology ePrint Archive, Paper 2024/1936.* 
 [Code](https://github.com/GJCPP/MP-SPDZ-Shuffle)
