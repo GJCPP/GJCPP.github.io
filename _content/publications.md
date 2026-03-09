@@ -1,5 +1,5 @@
 **Efficient SNARK for Convolutional Neural Network Training.**
-Wenjie Qu, Jiacheng Gao, Jiaheng Zhang (2025). 
+Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025). 
 *Under review.*
 [Code](https://github.com/GJCPP/Semper)
 
@@ -27,5 +27,5 @@ Wenjie Qu, Jiacheng Gao, Jiaheng Zhang (2025).
 -----
 
 [**Revisiting Privacy-Preserving Min and k-th Min Protocols for Mobile Sensing.**](https://doi.org/10.1109/TDSC.2023.3324802)
-Jiacheng Gao, Yuan Zhang, Sheng Zhong (2023).
+**Jiacheng Gao**, Yuan Zhang, Sheng Zhong (2023).
 *IEEE Transactions on Dependable and Secure Computing, Vol. 21, No. 4, pp. 3211–3226.*
