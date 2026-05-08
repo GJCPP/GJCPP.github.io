@@ -1,3 +1,9 @@
+**Zero-Knowledge Proofs for Gradient Boosted Decision Trees.**
+**Jiacheng Gao**, Wenjie Qu, Yuan Zhang, Sheng Zhong, Jiaheng Zhang (2026).
+*Preprint.*
+
+-----
+
 **Efficient SNARK for Convolutional Neural Network Training.**
 Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025). 
 *Under review.*
