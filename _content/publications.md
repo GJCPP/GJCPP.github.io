@@ -1,6 +1,6 @@
-**Zero-Knowledge Proofs for Gradient Boosted Decision Trees.**
+[**Zero-Knowledge Proofs for Gradient Boosted Decision Trees.**](https://eprint.iacr.org/2026/907)
 **Jiacheng Gao**, Wenjie Qu, Yuan Zhang, Sheng Zhong, Jiaheng Zhang (2026).
-*Preprint.*
+*Cryptology ePrint Archive, Paper 2026/907.*
 
 -----
 
