@@ -26,7 +26,7 @@ Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025).
 -----
 
 [**Free Linear Online Phase for Secure Multiparty Shuffle.**](https://eprint.iacr.org/2024/1936)
-**Jiacheng Gao**, Yuan Zhang, Sheng Zhong (2024).
+**Jiacheng Gao**, Yuan Zhang, Sheng Zhong, Changyu Dong (2024).
 *Cryptology ePrint Archive, Paper 2024/1936.* 
 [Code](https://github.com/GJCPP/MP-SPDZ-Shuffle)
 
