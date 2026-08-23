@@ -13,7 +13,7 @@ Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025).
 
 [**SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery.**](https://eprint.iacr.org/2025/165) 
 **Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
-*Cryptology ePrint Archive, Paper 2025/165.* 
+*Accepted to Journal of Computer Security (JCS).*
 [Code](https://github.com/GJCPP/ShamirShuffle)
 
 -----
@@ -27,7 +27,7 @@ Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025).
 
 [**Free Linear Online Phase for Secure Multiparty Shuffle.**](https://eprint.iacr.org/2024/1936)
 **Jiacheng Gao**, Yuan Zhang, Sheng Zhong, Changyu Dong (2024).
-*Cryptology ePrint Archive, Paper 2024/1936.* 
+*Accepted to ASIACRYPT 2026.*
 [Code](https://github.com/GJCPP/MP-SPDZ-Shuffle)
 
 -----
