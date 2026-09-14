@@ -40,6 +40,17 @@ A modular Jekyll-based GitHub Pages template for academic profiles (e.g., PhD ap
 
 ## Local preview
 
+On Windows, double-click `start-preview.bat`. It starts Jekyll and opens
+your browser once the site is ready. Keep the terminal window open while
+previewing; press Ctrl+C to stop the server.
+
+First-time Windows setup: install Ruby+Devkit from
+https://rubyinstaller.org/, complete its MSYS2 setup, then open a new
+terminal and run `gem install jekyll bundler`. The script displays setup
+instructions if Jekyll is missing.
+
+Alternatively, run from a terminal:
+
 ```bash
 jekyll serve
 ```

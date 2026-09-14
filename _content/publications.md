@@ -20,7 +20,7 @@ Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025).
 
 [**UFOs: An Ultra-fast Toolkit for Multiparty Computation of Small Elements.**](https://eprint.iacr.org/2025/2281)
 **Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
-*Cryptology ePrint Archive, Paper 2025/2281.* 
+*Accepted to IEEE Transactions on Information Forensics and Security (TIFS).*
 [Code](https://github.com/GJCPP/ShamirMPC)
 
 -----
