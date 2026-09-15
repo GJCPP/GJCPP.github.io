@@ -12,7 +12,7 @@ Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025).
 
 -----
 
-[**SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery.**](https://eprint.iacr.org/2025/165) 
+[**SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery.**](https://arxiv.org/abs/2608.27129)
 **Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
 *Accepted to Journal of Computer Security (JCS).*
 [Code](https://github.com/GJCPP/ShamirShuffle)
