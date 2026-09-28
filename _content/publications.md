@@ -6,21 +6,21 @@
 -----
 
 **Efficient SNARK for Convolutional Neural Network Training.**
-Wenjie Qu, **Jiacheng Gao**, Jiaheng Zhang (2025). 
+Wenjie Qu<sup>&ast;</sup>, **Jiacheng Gao**<sup>&ast;</sup>, Jiaheng Zhang (2025).
 *Under review.*
 [Code](https://github.com/GJCPP/Semper)
 
 -----
 
 [**SLIDE: Shuffle Shamir Secret Shares Uniformly with Linear Online Communication and Guaranteed Output Delivery.**](https://arxiv.org/abs/2608.27129)
-**Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
+**Jiacheng Gao**<sup>&ast;</sup>, Moyang Xie<sup>&ast;</sup>, Yuan Zhang, Sheng Zhong (2025).
 *Accepted to Journal of Computer Security (JCS).*
 [Code](https://github.com/GJCPP/ShamirShuffle)
 
 -----
 
 [**UFOs: An Ultra-fast Toolkit for Multiparty Computation of Small Elements.**](https://eprint.iacr.org/2025/2281)
-**Jiacheng Gao**, Moyang Xie, Yuan Zhang, Sheng Zhong (2025). 
+**Jiacheng Gao**<sup>&ast;</sup>, Moyang Xie<sup>&ast;</sup>, Yuan Zhang, Sheng Zhong (2025).
 *Accepted to IEEE Transactions on Information Forensics and Security (TIFS).*
 [Code](https://github.com/GJCPP/ShamirMPC)
 
